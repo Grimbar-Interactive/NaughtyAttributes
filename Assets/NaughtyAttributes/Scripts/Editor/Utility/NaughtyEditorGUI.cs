@@ -119,6 +119,7 @@ namespace NaughtyAttributes.Editor
             EditorGUI.BeginChangeCheck();
 
             int newIndex = EditorGUI.Popup(rect, label, selectedValueIndex, displayOptions);
+            if (newIndex < 0 || newIndex >= values.Length) return;
             object newValue = values[newIndex];
 
             object dropdownValue = dropdownField.GetValue(target);
