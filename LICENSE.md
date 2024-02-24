@@ -1,7 +1,7 @@
 MIT License
 
-Original Work Copyright (c) 2017 Denis Rizov
-Modified Work Copyright (c) 2024 Grimbar Interactive LLC
+Copyright (c) 2017 Denis Rizov
+Copyright (c) 2024 Grimbar Interactive LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
