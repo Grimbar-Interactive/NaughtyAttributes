@@ -1,17 +1,9 @@
-Forked from https://github.com/dbrizov/NaughtyAttributes
-
-You install via git url using the following url in the Package Manager:
-```
-https://github.com/Grimbar-Interactive/NaughtyAttributes.git#upm
-```
-
-
-# NaughtyAttributes
+# Unity Attributes (a fork of [NaughtyAttributes](https://github.com/dbrizov/NaughtyAttributes))
 [![Unity 2019.4+](https://img.shields.io/badge/unity-2019.4%2B-blue.svg)](https://unity3d.com/get-unity/download)
 [![openupm](https://img.shields.io/npm/v/com.dbrizov.naughtyattributes?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.dbrizov.naughtyattributes/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/dbrizov/NaughtyAttributes/blob/master/LICENSE)
 
-NaughtyAttributes is an extension for the Unity Inspector.
+Unity Attributes is an extension for the Unity Inspector.
 
 It expands the range of attributes that Unity provides so that you can create powerful inspectors without the need of custom editors or property drawers. It also provides attributes that can be applied to non-serialized fields or functions.
 
@@ -24,22 +16,17 @@ If you want all of the attributes to work in your custom editors, however, you m
 Unity **2019.4** or later versions. Don't forget to include the NaughtyAttributes namespace.
 
 ## Installation
-1. The package is available on the [openupm registry](https://openupm.com). You can install it via [openupm-cli](https://github.com/openupm/openupm-cli).
+You can install via git url using
 ```
-openupm add com.dbrizov.naughtyattributes
+"https://github.com/Grimbar-Interactive/Unity-Attributes.git"
 ```
-2. You can also install via git url by adding this entry in your **manifest.json**
-```
-"com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#upm"
-```
-3. You can also download it from the [Asset Store](https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996)
 
 ## Documentation
 - [Documentation](https://dbrizov.github.io/na-docs/)
 - [Documentation Repo](https://github.com/dbrizov/na-docs)
 
 ## Support
-NaughtyAttributes is an open-source project that I am developing in my free time. If you like it you can support me by donating.
+The original NaughtyAttributes and this fork ("Unity Attributes") are open source projects. You can support the author of the original NaughtyAttributes here:
 
 - [PayPal](https://paypal.me/dbrizov)
 - [Buy Me A Coffee](https://www.buymeacoffee.com/dbrizov)
@@ -89,7 +76,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/AnimatorParam_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/AnimatorParam_Inspector.png)
 
 ### Button
 A method can be marked as a button. A button appears in the inspector and executes the method if clicked.
@@ -106,7 +93,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Button_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Button_Inspector.png)
 
 ### CurveRange
 Set bounds and modify curve color for AnimationCurves
@@ -125,7 +112,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/CurveRange_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/CurveRange_Inspector.png)
 
 ### Dropdown
 Provides an interface for dropdown value selection.
@@ -161,7 +148,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Dropdown_Inspector.gif)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Dropdown_Inspector.gif)
 
 ### EnumFlags
 Provides dropdown interface for setting enum flags.
@@ -183,7 +170,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/EnumFlags_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/EnumFlags_Inspector.png)
 
 ### Expandable
 Make scriptable objects expandable.
@@ -196,7 +183,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Expandable_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Expandable_Inspector.png)
 
 ### HorizontalLine
 
@@ -214,7 +201,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/HorizontalLine_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/HorizontalLine_Inspector.png)
 
 ### InfoBox
 Used for providing additional information.
@@ -233,7 +220,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/InfoBox_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/InfoBox_Inspector.png)
 
 ### InputAxis
 Select an input axis via dropdown interface.
@@ -246,7 +233,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/InputAxis_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/InputAxis_Inspector.png)
 
 ### Layer
 Select a layer via dropdown interface.
@@ -262,7 +249,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Layer_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Layer_Inspector.png)
 
 ### MinMaxSlider
 A double slider. The **min value** is saved to the **X** property, and the **max value** is saved to the **Y** property of a **Vector2** field.
@@ -275,7 +262,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/MinMaxSlider_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/MinMaxSlider_Inspector.png)
 
 ### ProgressBar
 ```csharp
@@ -292,7 +279,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ProgressBar_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ProgressBar_Inspector.png)
 
 ### ReorderableList
 Provides array type fields with an interface for easy reordering of elements.
@@ -308,7 +295,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ReorderableList_Inspector.gif)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ReorderableList_Inspector.gif)
 
 ### ResizableTextArea
 A resizable text area where you can see the whole text.
@@ -322,7 +309,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ResizableTextArea_Inspector.gif)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ResizableTextArea_Inspector.gif)
 
 ### Scene
 Select a scene from the build settings via dropdown interface.
@@ -338,7 +325,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Scene_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Scene_Inspector.png)
 
 ### ShowAssetPreview
 Shows the texture preview of a given asset (Sprite, Prefab...).
@@ -354,7 +341,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ShowAssetPreview_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ShowAssetPreview_Inspector.png)
 
 ### ShowNativeProperty
 Shows native C# properties in the inspector.
@@ -371,7 +358,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ShowNativeProperty_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ShowNativeProperty_Inspector.png)
 
 ### ShowNonSerializedField
 Shows non-serialized fields in the inspector.
@@ -394,7 +381,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ShowNonSerializedField_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ShowNonSerializedField_Inspector.png)
 
 ### SortingLayer
 Select a sorting layer via dropdown interface.
@@ -410,7 +397,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/SortingLayer_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/SortingLayer_Inspector.png)
 
 ### Tag
 Select a tag via dropdown interface.
@@ -423,7 +410,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Tag_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Tag_Inspector.png)
 
 ## Meta Attributes
 Give the fields meta data. A field can have more than one meta attributes.
@@ -446,7 +433,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/BoxGroup_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/BoxGroup_Inspector.png)
 
 ### Foldout
 Makes a foldout group.
@@ -461,7 +448,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Foldout_Inspector.gif)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Foldout_Inspector.gif)
 
 ### EnableIf / DisableIf
 ```csharp
@@ -484,7 +471,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/EnableIf_Inspector.gif)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/EnableIf_Inspector.gif)
 
 You can have more than one condition.
 
@@ -523,7 +510,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ShowIf_Inspector.gif)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ShowIf_Inspector.gif)
 
 You can have more than one condition.
 
@@ -555,7 +542,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Label_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Label_Inspector.png)
 
 ### OnValueChanged
 Detects a value change and executes a callback.
@@ -586,7 +573,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ReadOnly_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ReadOnly_Inspector.png)
 
 ## Validator Attributes
 Used for validating the fields. A field can have infinite number of validator attributes.
@@ -605,7 +592,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/MinValueMaxValue_Inspector.gif)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/MinValueMaxValue_Inspector.gif)
 
 ### Required
 Used to remind the developer that a given reference type field is required.
@@ -621,7 +608,7 @@ public class NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/Required_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/Required_Inspector.png)
 
 ### ValidateInput
 The most powerful ValidatorAttribute.
@@ -647,4 +634,4 @@ public class _NaughtyComponent : MonoBehaviour
 }
 ```
 
-![inspector](https://github.com/dbrizov/NaughtyAttributes/blob/master/Assets/NaughtyAttributes/Documentation~/ValidateInput_Inspector.png)
+![inspector](https://github.com/Grimbar-Interactive/Unity-Attributes/blob/master/Documentation/ValidateInput_Inspector.png)

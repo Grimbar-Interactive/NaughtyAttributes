@@ -1,0 +1,16 @@
+{
+    "name": "GrimbarInteractive.UnityToolkit.Attributes.Test",
+    "rootNamespace": "",
+    "references": [
+        "GrimbarInteractive.UnityToolkit.Attributes"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
