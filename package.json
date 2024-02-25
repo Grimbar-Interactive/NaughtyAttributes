@@ -8,8 +8,14 @@
   "category": "editor extensions",
   "dependencies": {},
   "author": {
-    "name": "Grimbar Interactive (original package by Denis Rizov)",
+    "name": "Grimbar Interactive",
 	"email": "jacob@grimbar.dev",
 	"url": "http://grimbarinteractive.com"
-  }
+  },
+  "contributors": [
+    {
+      "name": "Denis Rizov",
+      "url": "https://github.com/dbrizov"
+    }
+  ]
 }
